@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="mycss.css"></link>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>employee form</header>
+    <form action="index.php" method="post">
+        <fieldset>
+            <lable> employee id: <input type="number" name="empId">
+            </lable>
+
+            <lable> employee name: <input name="name">
+            </lable>
+
+            <lable> start date: <input type="date" name="date">
+            </lable>
+
+            <button name="getEmp" value="full">Get employee</button>
+            <button name="add" value="full">Add New</button>
+            <button name="update" value="full">Update</button>
+            <button name="dlt" value="full">Delete</button>
+            <button name="all" value="full">Get All</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
